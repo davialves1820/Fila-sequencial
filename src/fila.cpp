@@ -45,7 +45,7 @@ void fila::remove() {
 
 // Retorna a cabeça
 int fila::get_head() {
-    return head;
+    return vetor[head];
 }
 
 void fila::print() {
