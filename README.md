@@ -47,19 +47,30 @@ Exemplo de funcionamento da fila:
 ```
 Fila criada
 Vazia? Sim
+Valor 8 adicionado.
 Fila: 8
 Vazia? Nao
+Valor 3 adicionado.
 Fila: 8 3
+Valor 2 adicionado.
 Fila: 8 3 2
 Tamanho: 3
+Valor 1 adicionado.
 Fila: 8 3 2 1
+Valor 6 adicionado.
 Fila: 8 3 2 1 6
 Cheia? Sim
+Valor 8 removido.
 Fila: 3 2 1 6
+Valor 9 adicionado.
 Fila: 3 2 1 6 9
+Valor 3 removido.
 Fila: 2 1 6 9
+Valor 91 adicionado.
 Fila: 2 1 6 9 91
+Valor 2 removido.
 Fila: 1 6 9 91
+Valor 19 adicionado.
 Fila: 1 6 9 91 19
 Elemento do top: 1
 

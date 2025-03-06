@@ -30,6 +30,7 @@ void fila::insert(int v) {
     end = (end + 1) % TAM_MAX;
     vetor[end] = v;
     tam++;
+    cout << "Valor " << v << " adicionado." << endl;
 }
 
 // Remove a cabeça
@@ -38,9 +39,9 @@ void fila::remove() {
         cout << "Fila vazia" << endl;
     }
 
+    cout << "Valor " << vetor[head] << " removido." << endl;
     head = (head + 1) % TAM_MAX;
     tam--;
-
 }
 
 // Retorna a cabeça
